@@ -1,0 +1,360 @@
+{
+  "id": "ea0e487f-b908-4a32-87bc-25f6e6359331",
+  "version": "1.1",
+  "name": "Untitled Project",
+  "url": "http://henkuzlaravel.nikstep.com.ua:81",
+  "tests": [{
+    "id": "1f0be58a-1964-4f6c-8753-5a1375770ba3",
+    "name": "Untitled",
+    "commands": [{
+      "id": "473a8766-71ca-4692-a297-bed3c7be4ef4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7644957f-c41b-4852-8f22-cb9d7c23cc13",
+      "comment": "",
+      "command": "click",
+      "target": "css=a",
+      "targets": [
+        ["css=a", "css"],
+        ["xpath=//a[contains(text(),'Посетить библиотеку')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/library']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d42a6495-662f-4c0c-bd2d-f85b2cb84b85",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Афоризмы и цитаты",
+      "targets": [
+        ["linkText=Афоризмы и цитаты", "linkText"],
+        ["css=a.list-group-item.list-group-item-info", "css"],
+        ["xpath=//a[contains(text(),'Афоризмы и цитаты')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/genre/0']", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0ce7655-ac8b-4777-bb54-96a30b0240d7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Детектив",
+      "targets": [
+        ["linkText=Детектив", "linkText"],
+        ["xpath=//a[contains(text(),'Детектив')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/genre/1']", "xpath:href"],
+        ["xpath=//div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04d3b7f7-fe07-4ad9-a40c-ebd3214d8896",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Триллер",
+      "targets": [
+        ["linkText=Триллер", "linkText"],
+        ["xpath=//a[contains(text(),'Триллер')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/genre/2']", "xpath:href"],
+        ["xpath=//div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab765279-6983-48c1-b726-f0ce915dd39b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Боевик",
+      "targets": [
+        ["linkText=Боевик", "linkText"],
+        ["xpath=//a[contains(text(),'Боевик')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/genre/3']", "xpath:href"],
+        ["xpath=//div/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecf1db31-fd23-4baf-b7c1-e59f91a28b30",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Пьесы",
+      "targets": [
+        ["linkText=Пьесы", "linkText"],
+        ["xpath=//a[contains(text(),'Пьесы')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/genre/4']", "xpath:href"],
+        ["xpath=//div/a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29e57d8d-ae47-48dd-888e-0cea12ce7d2c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Древняя Греция. Рим. Средневековье",
+      "targets": [
+        ["linkText=Древняя Греция. Рим. Средневековье", "linkText"],
+        ["xpath=//a[contains(text(),'Древняя Греция. Рим. Средневековье')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/genre/5']", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2823079-3a41-4910-a286-95817c16b5a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=3",
+      "targets": [
+        ["linkText=3", "linkText"],
+        ["xpath=//a[contains(text(),'3')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/genre/5?page=3']", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bef08d6-e9dd-4ccc-9915-831f5ac43711",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//input[@value='Просмотреть'])[3]",
+      "targets": [
+        ["xpath=(//input[@value='Просмотреть'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bffda3f-4754-4842-9649-4acea8bc7813",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Автора",
+      "targets": [
+        ["linkText=Автора", "linkText"],
+        ["xpath=//a[contains(text(),'Автора')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/autor']", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e532161-4a41-4c13-89ba-f1c852a8c036",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=А. Дж. Финн",
+      "targets": [
+        ["linkText=А. Дж. Финн", "linkText"],
+        ["xpath=//a[contains(text(),'А. Дж. Финн')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/autor/А. Дж. Финн']", "xpath:href"],
+        ["xpath=//div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a87ac597-0e06-480c-a67c-c94a5fc75eec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=А. Ф. Брэди",
+      "targets": [
+        ["linkText=А. Ф. Брэди", "linkText"],
+        ["xpath=//a[contains(text(),'А. Ф. Брэди')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/autor/А. Ф. Брэди']", "xpath:href"],
+        ["xpath=//div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8328bff8-4a6a-4107-a442-bfe045f7badc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Абдаррахман Джами",
+      "targets": [
+        ["linkText=Абдаррахман Джами", "linkText"],
+        ["xpath=//a[contains(text(),'Абдаррахман Джами')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/autor/Абдаррахман Джами']", "xpath:href"],
+        ["xpath=//div/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a31ac5bb-c5cb-4a4e-99c0-a4047331a143",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Аврелий Августин",
+      "targets": [
+        ["linkText=Аврелий Августин", "linkText"],
+        ["xpath=//a[contains(text(),'Аврелий Августин')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/autor/Аврелий Августин']", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25166870-40d7-4c7c-a571-37482ba3e20f",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[type=\"submit\"]",
+      "targets": [
+        ["css=input[type=\"submit\"]", "css"],
+        ["xpath=//input[@value='Просмотреть']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b34695a9-bad5-4101-8eae-d10b7a243124",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Поиск",
+      "targets": [
+        ["linkText=Поиск", "linkText"],
+        ["xpath=//a[contains(text(),'Поиск')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/finds']", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7863f71a-5a0d-4077-a320-6ced23661abf",
+      "comment": "",
+      "command": "click",
+      "target": "id=autors_name",
+      "targets": [
+        ["id=autors_name", "id"],
+        ["name=autors_name", "name"],
+        ["css=#autors_name", "css"],
+        ["xpath=//input[@id='autors_name']", "xpath:attributes"],
+        ["xpath=//form[@id='autorsFind']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c6d6db2-c110-47bf-8c54-b5fede684599",
+      "comment": "",
+      "command": "type",
+      "target": "id=autors_name",
+      "targets": [
+        ["id=autors_name", "id"],
+        ["name=autors_name", "name"],
+        ["css=#autors_name", "css"],
+        ["xpath=//input[@id='autors_name']", "xpath:attributes"],
+        ["xpath=//form[@id='autorsFind']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Арсен Аваков"
+    }, {
+      "id": "f70d911c-a433-45be-8795-aa395ef85835",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "targets": [
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='autorsFind']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5313c645-f845-4c7a-89b8-a6b35cbeee42",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//input[@value='Просмотреть'])[2]",
+      "targets": [
+        ["xpath=(//input[@value='Просмотреть'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ec3d96e-5a82-48df-be9a-b5d693e7196f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=О нас",
+      "targets": [
+        ["linkText=О нас", "linkText"],
+        ["xpath=//a[contains(text(),'О нас')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/about']", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03dcf7ce-60f2-40b1-aded-24829780de90",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Главная",
+      "targets": [
+        ["linkText=Главная", "linkText"],
+        ["css=a.navbar-brand", "css"],
+        ["xpath=//a[contains(text(),'Главная')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aadeb9a-0ec7-4643-8acd-df76469334a7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Посетить админ панель Voydger')]",
+      "targets": [
+        ["xpath=//a[contains(text(),'Посетить админ панель Voydger')]", "xpath:link"],
+        ["xpath=//a[@href='http://henkuzlaravel.nikstep.com.ua:81/admin']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "840d9d06-2caa-45d7-88f1-7c2ecd5b8368",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Все пользователи",
+      "targets": [
+        ["linkText=Все пользователи", "linkText"],
+        ["xpath=//a[contains(text(),'Все пользователи')]", "xpath:link"],
+        ["xpath=(//a[@href='http://henkuzlaravel.nikstep.com.ua:81/admin/users'])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ddc5099-3f4c-422f-9c13-94dad3a29828",
+      "comment": "",
+      "command": "click",
+      "target": "css=img[alt=\"Logo Icon\"]",
+      "targets": [
+        ["css=img[alt=\"Logo Icon\"]", "css"],
+        ["xpath=//img[@alt='Logo Icon']", "xpath:img"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "671e783a-cb86-4c1a-95ea-fc13fc47c350",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Все книги",
+      "targets": [
+        ["linkText=Все книги", "linkText"],
+        ["xpath=//a[contains(text(),'Все книги')]", "xpath:link"],
+        ["xpath=(//a[@href='http://henkuzlaravel.nikstep.com.ua:81/admin/books'])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e192b8b-81d8-4bb7-a2ac-ca56e800f55c",
+      "comment": "",
+      "command": "click",
+      "target": "css=a.dropdown-toggle.text-right",
+      "targets": [
+        ["css=a.dropdown-toggle.text-right", "css"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6ddfb3f-1986-4e77-8981-d0109bb688b5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["xpath=(//a[contains(@href, '/')])[3]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "afd63cf8-b9aa-4dc2-9258-4676fb90c2d2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1f0be58a-1964-4f6c-8753-5a1375770ba3"]
+  }],
+  "urls": ["http://henkuzlaravel.nikstep.com.ua:81/"],
+  "plugins": []
+}

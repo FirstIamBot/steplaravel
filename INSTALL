@@ -1,0 +1,16 @@
+Установка програмного продукта Библиотека аудитории 307а
+
+1. Скопировать проект с Github
+    git clone *****************
+2. Cоздать бвзу данных
+ **************   DATABASE
+3. Перейти в каталог с проектом
+    cd steplaravel
+4. Создать ключ приложения
+    php artisan key:generate
+5. Для доступа к базе данных внесите измененияв файл env
+    DB_DATABASE=DATABASE
+    DB_USERNAME=USERNAME
+    DB_PASSWORD=PASSWORD
+6. Миграции БД
+    php artisan make:migration create_tasks_table --create=tasks
