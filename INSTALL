@@ -1,16 +1,34 @@
 Установка програмного продукта Библиотека аудитории 307а
 
 1. Скопировать проект с Github
-    git clone *****************
+    git clone https://github.com/FirstIamBot/steplaravel
+
 2. Cоздать бвзу данных
- **************   DATABASE
+
+     mysql> CREATE DATABASE steplaravel;
+
 3. Перейти в каталог с проектом
     cd steplaravel
+
 4. Создать ключ приложения
     php artisan key:generate
+
 5. Для доступа к базе данных внесите измененияв файл env
-    DB_DATABASE=DATABASE
+
+    DB_DATABASE=steplaravel
     DB_USERNAME=USERNAME
     DB_PASSWORD=PASSWORD
+
 6. Миграции БД
     php artisan make:migration create_tasks_table --create=tasks
+
+    для записи данных  в БД выполните следующую команду
+
+    mysql> source db migration\steplaravel_dump.sql;
+
+7. Пароль и логин дпступа к админ панели Voyager
+    логин - admin@admin.com
+    пароль - 1234567890
+
+8. Для проверки програмного продука Библиотека аудитории 307а
+   выполните тест Seleynium  libSeleniumTest.side
